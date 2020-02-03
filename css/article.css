@@ -1,0 +1,63 @@
+/* All CSS styles go here */
+.cover {
+    width: 100vw;
+    height: 70vw;
+    background: url("../monet_painting.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 100vw;
+    height: 100vw;
+    margin-bottom: 100px;
+}
+
+.title {
+    font-family: Georgia;
+    font-size: 22pt;
+    color: rgba(0, 0, 0, 0.45);
+    position: absolute;
+    left: 65%;
+    top: 20%;
+}
+
+.text {
+    color: #a3b7d2;
+    font-family: Georgia;
+    font-size: 10pt;
+    text-align-all: center;
+    width: 700px;
+    letter-spacing: .1px;
+    line-height: 24px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.text:first-child {
+    margin-top: 40px;
+}
+
+.name {
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.Claude {
+    width: 200px;
+    font-size: 20pt;
+    color: #939393;
+}
+
+.sub {
+    font-family: Georgia;
+    font-size: 7pt;
+    text-align-all: center;
+    width: 700px;
+    height: 80px;
+    letter-spacing: .1px;
+    line-height: 15px;
+    margin: auto;
+    margin-top: 1px;
+    color: #a3b7d2;
+}
+
